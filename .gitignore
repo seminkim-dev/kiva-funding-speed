@@ -1,3 +1,5 @@
+# Used Python .gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -218,3 +220,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+## Additional ignores
+# Data (too large for GitHub; load with kagglehub instead)
+data/
+*.csv
+*.zip
+
+# Kaggle API key
+kaggle.json
+
+# Mac
+.DS_Store
+
+# VS Code settings
+.vscode/
